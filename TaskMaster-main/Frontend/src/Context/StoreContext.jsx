@@ -7,12 +7,8 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
   const { getToken } = useAuth()
-<<<<<<< HEAD
   const [colorTheme,setColorTheme] = useState('dark')
   const url = 'http://localhost:5000/api'
-=======
-  const url = 'https://taskmaster-3-4vk5.onrender.com/api'
->>>>>>> df4d0b14f6b54d278fe534d9c6acf7371d7433b7
   const [tasks, setTasks] = useState([])
 
 

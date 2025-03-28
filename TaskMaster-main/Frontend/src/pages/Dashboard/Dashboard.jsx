@@ -2,13 +2,8 @@ import { SignedIn, UserButton, useUser } from "@clerk/clerk-react";
 import { useContext, useState } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import "./Dashboard.css";
-<<<<<<< HEAD
 import { Moon, Plus, Sun } from "lucide-react";
-import AddTaskPage from "../../components/AddTasksPage/addTaskPage";
-=======
-import { Plus } from "lucide-react";
 import AddTaskPage from "../../components/AddTasksPage/AddTaskPage";
->>>>>>> df4d0b14f6b54d278fe534d9c6acf7371d7433b7
 import { StoreContext } from "../../Context/StoreContext";
 import DisplayTasks from "../../components/DisplayTasks/DisplayTasks";
 import { DndProvider } from "react-dnd";
