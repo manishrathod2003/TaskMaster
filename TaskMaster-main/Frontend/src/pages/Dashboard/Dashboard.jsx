@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Dashboard.css";
 import { Plus } from "lucide-react";
-import AddTaskPage from "../../components/AddTasksPage/addTaskPage";
+import AddTaskPage from "../../components/AddTasksPage/AddTaskPage";
 import { StoreContext } from "../../Context/StoreContext";
 import DisplayTasks from "../../components/DisplayTasks/DisplayTasks";
 import { DndProvider } from "react-dnd";
