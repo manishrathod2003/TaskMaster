@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
 
   const { getToken } = useAuth()
   const [colorTheme,setColorTheme] = useState('dark')
-  const url = 'http://localhost:5000/api'
+  const url = 'https://taskmaster-3-4vk5.onrender.com/api'
   const [tasks, setTasks] = useState([])
 
 
