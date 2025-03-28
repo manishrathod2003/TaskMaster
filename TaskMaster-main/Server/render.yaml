@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: backend-service
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: DB_CONNECTION_STRING
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: EMAIL_SENDER
+        sync: false
+      - key: EMAIL_SENDER_PASSWORD
+        sync: false
