@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: backend-service
@@ -15,3 +16,22 @@ services:
         sync: false
       - key: EMAIL_SENDER_PASSWORD
         sync: false
+=======
+services:
+  - type: web
+    name: backend-service
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: DB_CONNECTION_STRING
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: EMAIL_SENDER
+        sync: false
+      - key: EMAIL_SENDER_PASSWORD
+        sync: false
+>>>>>>> df4d0b14f6b54d278fe534d9c6acf7371d7433b7
